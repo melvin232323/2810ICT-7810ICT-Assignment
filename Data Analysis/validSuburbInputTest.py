@@ -1,8 +1,7 @@
-import pandas as pd
 import wx
-import wx.grid as gridlib
 import wx.adv
-
+import pandas as pd
+import wx.grid as gridlib
 
 class SuburbSearch(wx.Frame):
     def __init__(self, parent, title):
@@ -81,7 +80,6 @@ class SuburbSearch(wx.Frame):
 
     def showError(self, message):
         wx.LogError(message)
-
 
 if __name__ == '__main__':
     app = wx.App(False)
